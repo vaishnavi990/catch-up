@@ -1,0 +1,68 @@
+.container{
+    margin-top: 50px;
+    padding: 20px;   
+}
+form> div,button{
+    margin: 20px;
+}
+.navbar-brand>img{
+    border-radius: 5px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(46,41,41)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler, .content .card {
+    border-color: #2E2929
+  } 
+nav{
+    background-color: #E79115;
+}
+.nav-link, .nav-link:hover, .fab{
+    text-decoration: none;
+    color: #2E2929;
+}
+.card-body a:hover, .card-body{
+    color: #E79115;
+}
+.card-body a{
+    color: #085F63;
+    text-decoration: none;
+}
+.fas{
+    padding: 10px;
+}
+.form-control{
+    border: 1px solid #2E2929;
+}
+.dashboard, .content{
+    margin: 20px;
+}
+.dashboard .row .card {
+    margin: 20px;
+}
+.dashboard .row .card .card-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content .card{
+    margin: 10px;
+    padding: 10px;
+    width: 15rem;
+}
+
+.controls{
+    justify-content: space-around;
+}
+.profile-image{
+    width: 13em;
+    height:10em;
+}
+.refresh-btn, .refresh-btn:hover, .footer-container{
+    background-color: #2E2929;
+    color: #E79115;
+}
+.btn-info, .fab{
+    color: #fff;
+}
